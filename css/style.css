@@ -1,0 +1,63 @@
+@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css');
+
+.glyphicon {
+	margin: 5px;
+}
+.background {
+  background-color: #555;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/0/07/Wikipedia_logo_(svg).svg') no-repeat center fixed;
+}
+.panel{
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  width: 50%;
+}
+.search_panel{
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #000;
+  opacity: .8;
+  color: #fff;
+}
+.pointer{
+  cursor:pointer;
+  color : green;
+  font-weight: bold;
+}
+.border{
+  border-radius: 100px;
+  border-color: #4CAF50;
+}
+input{
+    width: 80%;
+    height: 30px;
+}
+.imgbutton{
+  background: url('https://upload.wikimedia.org/wikipedia/commons/6/6c/Bouncywikilogo.gif') no-repeat;
+  cursor:pointer;
+  border: none;
+  height: 160px;
+  width: 200px;
+  color: #000;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  align: bottom;
+}
+button{
+  width: 130px;
+  height: 30px;
+}
+.text{
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  padding-left: 15px;
+}

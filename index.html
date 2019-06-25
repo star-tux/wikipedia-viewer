@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+  <body class="background">
+    <div class="container-fluid panel">
+      <div class="input-group">
+          <button type="submit" id="random" class="imgbutton" onclick="random_article">
+          </button>
+          <input type="text" id="search_words" class="border text" placeholder="Search">
+          <button type="submit" id="search" class="border btn-success" onclick="search">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+      </div>
+    </div>
+    <div id="search-result" class="container-fluid panel"></div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script  src="js/index.js"></script>
+  </body>
+</html>
